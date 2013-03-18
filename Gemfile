@@ -7,6 +7,8 @@ gem 'rails', '3.2.12'
 
 gem 'pg'
 gem 'haml-rails'
+gem "capybara"
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'jquery-rails'

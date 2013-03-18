@@ -1,0 +1,3 @@
+%ul
+  -(phone_numbers).each do |n|
+    %li= link_to "#{n.number} edit", edit_phone_number_path(n)
