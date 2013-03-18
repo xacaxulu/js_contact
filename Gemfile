@@ -13,6 +13,9 @@ group :development, :test do
   gem 'heroku'
   gem 'unicorn'
   gem 'pg'
+  gem 'haml-rails'
+  gem 'erb2haml'
+  gem 'html2haml'
 end
 
 
