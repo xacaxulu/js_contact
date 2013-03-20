@@ -21,6 +21,10 @@ describe Person do
       @person.phone_numbers.class.should == Array
     end
 
+    it "should have an array of email addresses" do
+      expect(@person.email_addresses).to be_kind_of(Array)
+    end
+
   end
 
 end
